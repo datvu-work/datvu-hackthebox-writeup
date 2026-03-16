@@ -184,10 +184,6 @@ There is  a log indicating that attacker has done a curl to download a file. Thi
 |--------------|---------------------------------|
 | Lab          | Brutus                          |
 
-
-**Key finding:**
-Attacker (65.2.161.68) has brute-forced to the machine and successfully found the right password and got in. The attacker then did some lateral movements.
-
 **What I learned:**
 1.  I have read more infos about auth.log and wtmp file in Linux. (auth.log logs all authentication events of all users and wtmp is a binary log file that maintains a historical records of login/logout) 
 
